@@ -1,1 +1,1 @@
-# Package marker for reference.python.shared
+"""Aura reference shared utilities."""

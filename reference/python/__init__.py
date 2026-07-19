@@ -1,1 +1,1 @@
-# Package marker for reference.python
+"""Aura reference implementation package."""
