@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aura-conformance-kit"
+version = "0.1.0"
+description = "Aura Conformance Kit — tools and materials to verify Aura implementations."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+test = ["pytest>=7.0", "jcs>=0.2.0", "PyYAML>=6.0"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
